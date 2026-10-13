@@ -1,4 +1,4 @@
-# 🛠️ التقنيات المستخدمة — منصة معالجة المهام الخلفية الموزعة
+# 🛠️ Tech Stack — Distributed Background Task Processing Platform
 
 - Python
 - Celery

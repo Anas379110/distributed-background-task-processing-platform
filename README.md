@@ -1,21 +1,21 @@
-# منصة معالجة المهام الخلفية الموزعة
-**Distributed Background Task Processing Platform** · التصنيف: هندسة برمجيات
+# Distributed Background Task Processing Platform
+**Distributed Background Task Processing Platform** · Classification: Software Engineering
 
-> هذا المشروع خاص بشركة/عميل محدد، والكود المصدري غير منشور.
 > Private client work — the source code is not public.
+> This repository contains project documentation only and does not include source code.
 
-## نبذة عن المشروع
-منصة معالجة غير متزامنة تتعامل مع أكثر من 10,000 مهمة متزامنة.
+## Project Overview
+An asynchronous processing platform that handles more than 10,000 concurrent tasks.
 
-## أبرز النقاط
-- طوابير أولوية، منطق إعادة المحاولة، وطوابير الأخطاء
-- FastAPI REST لمراقبة المهام
-- نشر على AWS EC2 مع Auto-Scaling
+## Highlights
+- Priority queues, retry logic, and error queues
+- FastAPI REST for task monitoring
+- Deployed on AWS EC2 with Auto-Scaling
 
-## الدور
-مهندس برمجيات: تصميم المعمارية وبناء المكونات الأساسية والنشر والأتمتة.
+## Role
+Software Engineer: architectural design, building core components, deployment, and automation.
 
-## التقنيات المستخدمة
+## Technologies Used
 Python, Celery, Redis, FastAPI, PostgreSQL, Docker, AWS
 
-التفاصيل في [TECHSTACK.md](./TECHSTACK.md).
+Details in [TECHSTACK.md](./TECHSTACK.md).
